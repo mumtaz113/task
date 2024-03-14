@@ -548,10 +548,13 @@ footer p {
     }
     
     footer ul li {
-        margin-bottom: 12px;
+    line-height: 28px;
     }
     
     footer p {
         font-size: 11px;
-    }  
+    } 
+    footer ul li a {
+        font-size: 12px;
+    } 
 }
