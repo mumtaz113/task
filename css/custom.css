@@ -433,4 +433,70 @@ footer p {
 @media only screen and (min-width: 992px) and (max-width: 1199px){}
 @media only screen and (min-width: 768px) and (max-width: 991px){}
 @media only screen and (min-width: 520px) and (max-width: 767px){}
-@media only screen and (min-width: 300px) and (max-width: 519px){}
+@media only screen and (min-width: 300px) and (max-width: 519px){
+    .logo img {
+        width: 53%!Important;
+    }
+    
+    button.navbar-toggler {
+        position: absolute;
+        top: -54px;
+        right: 13px;
+        background: #019a97;
+    }
+    
+    div#navbarCollapse {
+        width: 100%;
+    }
+    
+    .bottom-row {
+        width: 100%;
+        border: none;
+        background: transparent;
+    }
+    
+    .navbar-nav a {
+        text-align: center;
+    }
+    
+    .navbar-nav a :before {
+    }
+    
+    .bottom-row .navbar-nav a::before {
+        display: none;
+    }
+    
+    .gt-img {
+        display: flex;
+        align-items: center;
+        padding-top: 16px;
+    }
+    
+    .top-row {
+        padding-top: 17px;
+    }
+    
+    .bottom-row {}
+    
+    .navbar-nav {
+        border: 1px solid #019a97;
+        background: #019a97;
+        padding: 12px 0px;
+        position: absolute;
+        top: -14px;
+        right: 0;
+        left: 0;
+    }
+    
+    .bottom-row .col-md-12 {
+        padding: 0;
+    }
+    
+    .quick-sec ul {
+        flex-direction: column;
+    }
+    
+    .quick-sec ul li {
+        margin-bottom: 18px;
+    }    
+}
