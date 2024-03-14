@@ -498,5 +498,59 @@ footer p {
     
     .quick-sec ul li {
         margin-bottom: 18px;
-    }    
+    }
+    section.quick-sec h5 {
+        font-size: 12px;
+    }
+    
+    .brand-blk ul {
+        flex-direction: column;
+    }
+    
+    .brand-blk ul li {
+        margin-bottom: 18px;
+    }
+    
+    section.sugar-sec {
+        padding-bottom: 30px;
+    }
+    
+    section.package-sec h3 {
+        font-size: 18px;
+    }
+    
+    section.package-sec .row {
+        padding-top: 18px;
+    }
+    
+    section.package-sec {
+        padding: 50px 0px;
+    }  
+    .brand-blk {
+        margin-bottom: 24px;
+    }
+    
+    h4.imp {
+        font-size: 24px;
+    }
+    
+    .comp-blkk {
+        margin-bottom: 28px;
+    }
+    
+    footer ul {
+        flex-direction: column;
+    }
+    
+    footer ul li a::before {
+        display: none;
+    }
+    
+    footer ul li {
+        margin-bottom: 12px;
+    }
+    
+    footer p {
+        font-size: 11px;
+    }  
 }
